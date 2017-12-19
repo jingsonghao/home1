@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="initial-scale=0.3" />
+		<title>留言</title>
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+		<link rel="stylesheet" type="text/css" href="css/common.css" />
+		<link rel="stylesheet" type="text/css" href="css/main.css" />
+	</head>
+	<body>
+		<!--顶部导航-->
+		<div class="container-fluid" style="background: #FFFFFF;">
+			<div class="container header">
+				<nav class="navbar navbar-default navs">
+					<div class="container-fluid">
+						<!-- Brand and toggle get grouped for better mobile display -->
+						<div class="navbar-header">
+							<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                          <span class="icon-bar"></span>
+                         <span class="icon-bar"></span>
+                          <span class="icon-bar"></span>
+                        </button>
+							<a class="navbar-brand logo" href="#"><img src="img/logo_03.png" /></a>
+						</div>
+						<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+							<ul class="nav navbar-nav navs-right">
+								<li>
+									<a href="index.html">首页 <span> &nbsp;&nbsp;&nbsp; &frasl;</span></a>
+								</li>
+								<li>
+									<a href="news.html">新闻资讯 <span> &nbsp;&nbsp;&nbsp;&frasl;</span></a>
+								</li>
+								<li>
+									<a href="dynamics.html">工作动态 <span>&nbsp;&nbsp;&nbsp;&frasl;</span> </a>
+								</li>
+								<li>
+									<a href="statute.html">政策法规<span>&nbsp;&nbsp;&nbsp;&frasl;</span></a>
+								</li>
+								<li>
+									<a href="message.html">公众留言<span>&nbsp;&nbsp;&nbsp;&frasl;</span> </a>
+								</li>
+								<li>
+									<a href="Policy.html">追溯企业 <span>&nbsp;&nbsp;&nbsp;&frasl;</span></a>
+								</li>
+								<li>
+									<a href="link.html">电商链接 </a>
+								</li>
+							</ul>
+						</div>
+						<!-- /.navbar-collapse -->
+					</div>
+					<!-- /.container-fluid -->
+				</nav>
+			</div>
+		</div>
+		<!--导航结束-->
+		<div class="g-header container">
+			<span style="float: left;margin-right: 10px;margin-top: 4px;"><img src="img/sanjiao_03.png"/></span>
+			<p>您现在的位置：首页>公众留言</p>
+		</div>
+		<div class="g-board container">
+			<p>公众留言 &nbsp;Board</p>
+		</div>
+		<div class="container g-ly ">
+			<p>* 留言类型：</p>
+			<div class="form-group">
+
+				<div class="radio ">
+					<label>
+                      <!--   <input type="checkbox"> -->
+                    <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked  class=" dj1">咨询类
+                     </label>
+				</div>
+
+			</div>
+			<div class="form-group ">
+				<div class="radio">
+					<label>
+                         <input type="radio" name="optionsRadios" id="optionsRadios2" value="option1"  class=" dj1">建议类 
+                     </label>
+				</div>
+			</div>
+			<div class="form-group ">
+				<div class="radio">
+					<label>
+                         <input type="radio" name="optionsRadios" id="optionsRadios3" value="option1"   class=" dj">投诉类 
+                     </label>
+				</div>
+			</div>
+			<div class="form-group">
+				<div class="radio">
+					<label>
+                         <input type="radio" name="optionsRadios" id="optionsRadios4" value="option1"   class=" dj">褒奖类
+                     </label>
+				</div>
+			</div>
+		</div>
+		<div class="container con1-jsh" style="display: none;">
+			<div class="form-group">
+				<p class="g-word"style="line-height:30px;">* 企业名称：</p>
+				<input type="text" class="form-control " style="width: 300px;">
+			</div>
+		</div>
+		<div class="container">
+			  <div class="form-group" >
+             	<p class="g-word" >* 留言内容：</p>
+			     <textarea class="form-control g-texta" rows="8"></textarea>
+            </div>
+			 <input class="btn btn-primary g-btn" type="submit" value="提交">
+		</div>
+		<!--选项卡部分-->
+		<div class="container " style="margin-top: 30px;">
+			<div class="row">
+				<div class="g-left col-md-2 tab-1">
+					<ul>
+						<li class="active-2">
+							咨询类
+						</li>
+						<li>
+							建议类
+						</li>
+						<li>
+							投诉类
+						</li>
+						<li>
+							褒奖类
+						</li>
+					</ul>
+				</div>
+				<div class="tab" style="display: block">
+					<div class="g-right col-md-10">
+						<div class="g-right-word">
+							<p>【咨询】感知设备都包括那些？ </p>
+							<p> 时间:2017-07-16</p>
+						</div>
+						<div class="g-right-word2">
+							<p>【回复】包括智能溯源秤、智能读写终端、RFID电子标签、IC卡（CPU卡）等具备无线传输数据功能的机具。</p>
+
+						</div>
+					</div>
+					<div class="g-right col-md-10">
+						<div class="g-right-word">
+							<p>【咨询】如果消费者将零售小票丢失或损毁，是否可以进行追溯，如果可以，该如何进行？</p>
+							<p> 时间:2017-07-16</p>
+						</div>
+						<div class="g-right-word2">
+							<p>【回复】通过指认购买的相同批次的肉菜，确定购买日期和经销商，流通节点系统管理人员可根据该批次信息进行溯源。</p>
+
+						</div>
+					</div>
+					<div class="g-right col-md-10">
+						<div class="g-right-word">
+							<p>【咨询】消费者通过什么途径能查询到肉菜流通过程信息？ </p>
+							<p> 时间:2015-07-16</p>
+						</div>
+						<div class="g-right-word2">
+							<p>【回复】可通过零售市场设置的一体化查询终端、网站窗口、短信等方式查询。</p>
+
+						</div>
+					</div>
+					<div class="g-right col-md-10">
+						<div class="g-right-word">
+							<p>【咨询】《肉类蔬菜流通追溯体系信息处理要求》主要解决什么问题？ </p>
+							<p> 时间:2015-07-16</p>
+						</div>
+						<div class="g-right-word2">
+							<p>【回复】规定了肉类蔬菜流通追溯体系中信息存储、数据字典及数据库接口表等方面要求。</p>
+						</div>
+					</div>
+				</div>
+				<div class="tab">
+					<div class="g-right col-md-10">
+						<div class="g-right-word">
+							<p>【咨询】主体码、批次码、追溯码的逻辑关系是什么？ </p>
+							<p> 时间:2017-07-16</p>
+						</div>
+						<div class="g-right-word2">
+							<p>【回复】追溯码由经营者主体码+交易流水号组成，共20位数字。其中，经营者主体码是指作为卖方的经营者的主体码，为13位数字；交易流水号是指交易时由计算机按交易顺序生成的一段唯一的代码，为7位数字。
+							</p>
+
+						</div>
+					</div>
+					<div class="g-right col-md-10">
+						<div class="g-right-word">
+							<p>【咨询】追溯体系建设为什么要建立配套标准？</p>
+							<p> 时间:2017-07-16</p>
+						</div>
+						<div class="g-right-word2">
+							<p>【回复】配套标准是各试点城市追溯管理平台建设的基本准则和基本要求，主要从体系总体框架、追溯流程、实现方式、信息传输、信息采集、信息应用等方面进行规范，确保不同城市、不同追溯技术模式信息能够互联互通。</p>
+
+						</div>
+					</div>
+					<div class="g-right col-md-10">
+						<div class="g-right-word">
+							<p>【咨询】消费者通过什么途径能查询到肉菜流通过程信息？ </p>
+							<p> 时间:2015-07-16</p>
+						</div>
+						<div class="g-right-word2">
+							<p>【回复】可通过零售市场设置的一体化查询终端、网站窗口、短信等方式查询。</p>
+
+						</div>
+					</div>
+					<div class="g-right col-md-10">
+						<div class="g-right-word">
+							<p>【咨询】《肉类蔬菜流通追溯体系信息处理要求》主要解决什么问题？ </p>
+							<p> 时间:2015-07-16</p>
+						</div>
+						<div class="g-right-word2">
+							<p>【回复】规定了肉类蔬菜流通追溯体系中信息存储、数据字典及数据库接口表等方面要求。</p>
+						</div>
+					</div>
+				</div>
+				<div class="tab">
+					<div class="g-right col-md-10">
+						<div class="g-right-word">
+							<p>【咨询】消费环节的子系统都包括哪些单位？ </p>
+							<p> 时间:2017-07-16</p>
+						</div>
+						<div class="g-right-word2">
+							<p>【回复】大中型企业、政府机关、学校、餐饮企业、肉类蔬菜制品加工厂等。</p>
+						</div>
+					</div>
+					<div class="g-right col-md-10">
+						<div class="g-right-word">
+							<p>【咨询】蔬菜零售市场每个环节需要采集哪些信息？</p>
+							<p> 时间:2017-07-16</p>
+						</div>
+						<div class="g-right-word2">
+							<p>【回复】经营者编码、经营者名称、工商登记证号或身份证号、食品流通许可证号、许可证有效期、经营者性质、经营类型、备案时间、法人代表（指企业）、手机号码、信息更新日期。</p>
+
+						</div>
+					</div>
+					<div class="g-right col-md-10">
+						<div class="g-right-word">
+							<p>【咨询】消费者通过什么途径能查询到肉菜流通过程信息？ </p>
+							<p> 时间:2015-07-16</p>
+						</div>
+						<div class="g-right-word2">
+							<p>【回复】可通过零售市场设置的一体化查询终端、网站窗口、短信等方式查询。</p>
+
+						</div>
+					</div>
+					<div class="g-right col-md-10">
+						<div class="g-right-word">
+							<p>【咨询】《肉类蔬菜流通追溯体系信息处理要求》主要解决什么问题？ </p>
+							<p> 时间:2015-07-16</p>
+						</div>
+						<div class="g-right-word2">
+							<p>【回复】规定了肉类蔬菜流通追溯体系中信息存储、数据字典及数据库接口表等方面要求。</p>
+						</div>
+					</div>
+				</div>
+				<div class="tab">
+					<div class="g-right col-md-10">
+						<div class="g-right-word">
+							<p>【咨询】消费环节的子系统都包括哪些单位？ </p>
+							<p> 时间:2017-07-16</p>
+						</div>
+						<div class="g-right-word2">
+							<p>【回复】大中型企业、政府机关、学校、餐饮企业、肉类蔬菜制品加工厂等。</p>
+
+						</div>
+					</div>
+					<div class="g-right col-md-10">
+						<div class="g-right-word">
+							<p>【咨询】蔬菜零售市场每个环节需要采集哪些信息？</p>
+							<p> 时间:2017-07-16</p>
+						</div>
+						<div class="g-right-word2">
+							<p>【回复】经营者编码、经营者名称、工商登记证号或身份证号、食品流通许可证号、许可证有效期、经营者性质、经营类型、备案时间、法人代表（指企业）、手机号码、信息更新日期。</p>
+
+						</div>
+					</div>
+					<div class="g-right col-md-10">
+						<div class="g-right-word">
+							<p>【咨询】消费者通过什么途径能查询到肉菜流通过程信息？ </p>
+							<p> 时间:2015-07-16</p>
+						</div>
+						<div class="g-right-word2">
+							<p>【回复】可通过零售市场设置的一体化查询终端、网站窗口、短信等方式查询。</p>
+
+						</div>
+					</div>
+					<div class="g-right col-md-10">
+						<div class="g-right-word">
+							<p>【咨询】《肉类蔬菜流通追溯体系信息处理要求》主要解决什么问题？ </p>
+							<p> 时间:2015-07-16</p>
+						</div>
+						<div class="g-right-word2">
+							<p>【回复】规定了肉类蔬菜流通追溯体系中信息存储、数据字典及数据库接口表等方面要求。</p>
+						</div>
+					</div>
+				</div>
+				<!--选项卡部分结束-->
+			</div>
+		</div>
+		<div class="footer container-fluid">
+			<div class="container">
+				<div class="footer1 ">
+					<img src="img/footerlogo_10.png" />
+					<p>版权所有 &nbsp; 北京源正易山科技有限公司</p>
+					<p>联系电话 &nbsp; +6737286</p>
+				</div>
+				<div class="footer2">
+					<div class="footer2-img">
+						<img src="img/ios-foot.png" />
+						<img src="img/an_07.png" />
+						<img src="img/weixin-foot.png" />
+					</div>
+					<p class="p-footer">© 2014 Baikal UI Kit All rights reserved </p>
+				</div>
+			</div>
+		</div>
+		<!--footer结束-->
+	</body>
+	<script src="js/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/bootstrap.min.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/main.js" type="text/javascript" charset="utf-8"></script>
+  <script>
+  	  $(function(){
+  	  	 $(".dj").click(function(){
+  	  	 	$(".con1-jsh").show()
+  	  	 })
+  	  	 $(".dj1").click(function(){
+  	  	 	$(".con1-jsh").hide()
+  	  	 })
+  	  })
+  </script>
+</html>

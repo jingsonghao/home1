@@ -1,0 +1,12 @@
+1����ҳ������Ѷ����������С�
+2������ʡ׷��ƽ̨���
+4����ͼ�������ҽṹ������
+3��policyx.html-----׷����ҵ����  
+4,tracingchain.htm-------׷�ݽڵ��ѯ���
+5, retroactivePrice.html-------׷����Ʒ�۸� 
+img �ļ�����logo
+6,新增 xgmm.html -----修改密码页面
+7，gload.css----xgmm.html的css
+8，register.js------xgmm.html的js
+9，newszx.html新增打印功能
+10，print.js是打印功能的js

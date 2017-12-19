@@ -1,0 +1,24 @@
+﻿index.html ——————首页
+news.html---------新闻资讯
+newszx.html-----新闻咨询里面的子页面  新闻详情
+dynamics.html---------工作动态
+link.html------电商链接
+policy.html--------奖补企业
+statute.html-----政策法规
+message.html-----公众留言
+common.css------公共的css
+main.css--是所有页面的css
+main.js------- 是页面的js
+jquery.sortable.js -------是拖拽的js
+jquery.easing.1.3.js和jquery.skitter.min.js :图像轮播
+tracingChain.html 链条查询
+
+
+新增两个页面
+policyx.html		追溯企业介绍
+retroactivePrice.html  追溯价格页面
+
+变化：
+index.html  发生变化
+bootstrap.css  
+main.css
